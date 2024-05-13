@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	font-family: 'Montserrat' !important;
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+:focus {
+	outline: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+	font-family: 'Montserrat';
+}
+
+input {
+	user-select: none;
+}
+
+body.loading {
+	overflow-y: hidden;
+}
+
+:root {
+	--main-black: #212121;
+	--bold-black: #171717;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #212121;
+	color: white;
+	padding: 5rem;
+}
+
+.ctr {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem 0;
+	justify-content: center;
+}
+
+.card {
+	border-radius: 10px;
+	width: 10rem;
+	height: 10rem;
+	background-color: #625ae8;
+	cursor: grab;
+}
+
+.example {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1rem 0;
+	border-right: 1px solid #cecece;
+}
+.example2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem 0;
+	border-right: 1px solid #cecece;
+	min-height: 30rem;
+	min-width: 15rem;
+}
+
+.example3bckg {
+	display: flex;
+	flex-direction: column;
+	background-color: #cecece;
+	justify-content: center;
+	align-items: center;
+	width: 15rem;
+	height: 15rem;
+	border-radius: 10px;
+}
+
+.bsc-anmt {
+	display: flex;
+}
+
+.exp-btn {
+	width: 6rem;
+	height: 2rem;
+	margin-bottom: 1rem;
+	outline: none;
+	border: none;
+}
