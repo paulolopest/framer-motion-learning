@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const Comeco = () => {
 	// Primeiramente, a sintaxe do framer motion é intuitiva, ela é identica ao HTML, porem antes dos elementos, sempre temos que colocar o 'motion'
@@ -26,8 +27,11 @@ const Comeco = () => {
 
 	//--------------------------------------------------------
 
+	const navigate = useNavigate();
+
 	return (
 		<motion.div className="ctr">
+			<button onClick={() => navigate('/basicanimation')}>Test</button>
 			<div className="example">
 				<h1>Exemplo 1</h1>
 

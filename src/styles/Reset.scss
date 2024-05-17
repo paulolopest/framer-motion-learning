@@ -134,7 +134,7 @@ body.loading {
 	width: 100%;
 	min-height: 100vh;
 	background-color: #212121;
-	color: white;
+	color: white !important	;
 	padding: 5rem;
 }
 
@@ -151,6 +151,13 @@ body.loading {
 	height: 10rem;
 	background-color: #625ae8;
 	cursor: grab;
+}
+.card2 {
+	border-radius: 10px;
+	width: 10rem;
+	height: 10rem;
+	background-color: #625ae8;
+	margin-top: 60rem;
 }
 
 .example {
@@ -170,6 +177,21 @@ body.loading {
 	border-right: 1px solid #cecece;
 	min-height: 30rem;
 	min-width: 15rem;
+}
+
+.example3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem 0;
+	border-right: 1px solid #cecece;
+	min-height: 30rem;
+	min-width: 15rem;
+
+	h1 {
+		padding-bottom: 1rem;
+	}
 }
 
 .example3bckg {
@@ -193,4 +215,11 @@ body.loading {
 	margin-bottom: 1rem;
 	outline: none;
 	border: none;
+	border: 1px solid #212121;
+}
+
+.pt-ctr {
+	color: white;
+	height: 100vh;
+	width: 100%;
 }

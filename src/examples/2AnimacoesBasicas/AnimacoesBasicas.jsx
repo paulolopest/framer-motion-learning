@@ -1,5 +1,6 @@
 import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const AnimacoesBasicas = () => {
 	const [example1, setExample1] = React.useState(false);
@@ -8,6 +9,8 @@ const AnimacoesBasicas = () => {
 	const [example4, setExample4] = React.useState(false);
 	const [example5, setExample5] = React.useState(false);
 	const [example6, setExample6] = React.useState(false);
+
+	const navigate = useNavigate();
 
 	// Bem, apos a breve apresentação do motion component, vamos começar com animações basicas
 
@@ -92,6 +95,7 @@ const AnimacoesBasicas = () => {
 
 	return (
 		<div className="bsc-anmt">
+			<button onClick={() => navigate('/')}>Test</button>
 			<div className="example2">
 				<button
 					onClick={() => setExample1(!example1)}
